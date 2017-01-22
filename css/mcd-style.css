@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*-------------------------------------------------------------------------------
+ ANCHORS
+ -------------------------------------------------------------------------------*/
+a:link,
+a:visited	{ color: #1d568f; text-decoration: none; }
+a:hover,
+a:active	{ color: #106EC8; text-decoration: underline; }
+
+/*-------------------------------------------------------------------------------
+ FONTS
+ -------------------------------------------------------------------------------*/
+body, input, select, textarea, table, th, td, li ,a {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro", Osaka, "MS P Gothic", sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+body {
+	line-height: 1.8;
+	font-size: 12px;
+	background-color: #EEEFEF;
+	*font-size: 75%;
+}
+
+body, input, select, textarea {
+	color: #333333;
+}
+
+strong, em {
+	font-style: normal;
+	font-weight: bold;
+}

@@ -1,0 +1,240 @@
+/*-------------------------------------------------------------------------------
+ HEADER
+  -------------------------------------------------------------------------------*/
+.mcd-header-title {
+  margin-top: 4px;
+  margin-left: 145px;
+  font-size: 15px;
+}
+
+.mcd-header-title a {
+	color: #000 !important;
+}
+
+.cf:after, .cf:before {
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0
+}
+
+.cf { zoom:1 }
+
+/*-------------------------------------------------------------------------------
+ MENU
+  -------------------------------------------------------------------------------*/
+.container-menu-area {
+	background-color: #82C0EA;
+}
+
+.container-menu {
+	width: 990px;
+	margin: auto;
+}
+
+.container-menu li {
+	float: left;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.container-menu li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #fff !important;
+}
+
+/*-------------------------------------------------------------------------------
+ トップエリア
+  -------------------------------------------------------------------------------*/
+.mcd-top-container-area {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.mcd-top-container {
+	width: 990px;
+	margin: auto;
+}
+
+/*-------------------------------------------------------------------------------
+ MAIN AREA
+  -------------------------------------------------------------------------------*/
+.mcd-main-area {
+  
+}
+
+.mcd-top-article {
+	margin-top: 20px;
+	width: 650px;
+	height: 100%;
+	float: left;
+	background-color: #FFF;
+}
+
+.mcd-top-article a img {
+	width: 100%;
+}
+
+.mcd-article-info {
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+.mcd-meta-info {
+	font-size: 14px;
+}
+
+.mcd-meta-info i {
+	margin-top: 4px;
+	float: left;
+}
+
+.mcd-post-time {
+	margin-left: 10px;
+	float: left;
+}
+
+.mcd-post-tags {
+	margin-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 8px;
+	color: #FFF;
+	margin-left: 10px;
+	float: left;
+	background-color: #82C0EA;
+	border-radius: 5px/5px;
+}
+
+.mcd-description {
+	width: 610px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+/*-------------------------------------------------------------------------------
+ RIGHT COLUMN
+  -------------------------------------------------------------------------------*/
+.mcd-right-column-area {
+	width: 320px;
+	float: right;
+}
+
+.mcd-search-box {
+	margin-top: 20px;
+	height: 30px;
+	font-size: 14px;
+	color: #B4B5B5;
+	background-color: #FFF;
+}
+
+.mcd-search-inner-box {
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mcd-search-inner-box i {
+	color: #B4B5B5 !important;
+}
+
+.mcd-search-inner-box input {
+	height: 26px;
+	width: 290px;
+	border: none;
+}
+
+.mcd-top-profile {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFF;
+}
+
+.mcd-top-profile-inner {
+	width: 280px;
+	margin-left: 20px;
+}
+
+.mcd-top-profile-inner img {
+	width: 160px;
+	margin-top: 20px;
+	margin-left: 60px;
+	border-radius: 50%/50%;
+}
+
+.mcd-profile-detail {
+	float: left;
+}
+
+.mcd-profile-detail-link {
+	float: right;
+	color: #036EB8;
+}
+
+.mcd-popularity-article {
+	margin-top: 20px;
+	height: 500px;
+	background-color: #FFF;
+}
+
+.mcd-popularity-article h2 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*-------------------------------------------------------------------------------
+ FOOTER
+  -------------------------------------------------------------------------------*/
+.mcd-footer {
+	background-color: #FFF;
+}
+
+.mcd-footer-main {
+	width: 990px;
+	margin: auto; 
+}
+
+.mcd-footer-main-inner {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mcd-footer-main-category {
+	width: 630px;
+	float: left
+}
+
+.mcd-footer-main-about-site {
+	width: 320px;
+	float: right;
+}
+
+.mcd-footer-title {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.mcd-footer-menu {
+
+}
+
+.mcd-footer-menu li {
+	float: left;
+	margin-right: 60px;
+	font-size: 14px;
+}
+
+.mcd-footer-copyright {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	text-align: center;
+	background-color: #82C0EA;
+}
